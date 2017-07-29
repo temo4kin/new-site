@@ -1,0 +1,1 @@
+﻿<a href="//temo4kin.ru"><i class="fa fa-home"></i>&nbsp;&nbsp;Вернуться на сайт</a>
