@@ -105,6 +105,24 @@ footer h4{
     
 }
 
+.line-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2px 0;
+    padding-left: 3px;
+    background: linear-gradient(to bottom, #fff, #dfdfdf);
+    border:  1px solid #dfdfdf;
+    height: 27px;
+    width: 98%;
+}
+
+.line-item:hover{
+    background: linear-gradient(to bottom, #dfdfdf, #fff);
+    color: #000;
+    font-weight: 700;
+}
+
 .stats{
     display: table;
     margin: 0 auto;
@@ -242,7 +260,7 @@ h5{
 .grid-item3 ul li{
     text-decoration: none;
     text-align: left;
-    margin-left: 11%;
+    margin-left: 2.5%;
     list-style-type: none;
 }
 
