@@ -508,6 +508,20 @@ h5{
     text-align: center;
 }
 
+blockquote{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+    padding-left: 2px;
+    font-style: italic;
+    color: #4D4D4D;
+    font-size: 0.9em;
+    line-height: 1.25em;
+    text-align: justify;
+    border-left: 3px solid #808080;
+}
+
 @media (max-width: 1210px) {
     .wrapper{
         min-height: 530px;
