@@ -305,6 +305,25 @@ h5{
     grid-column: 2 / 4;
 }
 
+.grid-2 .grid-item10{
+    grid-column: 1 / 4;
+    text-align: left;
+}
+
+.grid-2 .grid-item10 h5{
+    text-align: center;
+}
+
+.grid-2 .grid-item10 ul{
+    margin: 20px 10px;
+    padding: 0;
+}
+
+.grid-2 .grid-item10 li{
+    list-style-type: circle;
+    padding: 10px  0;
+}
+
 .grid-3{
     grid-template-columns: repeat(4, minmax(100px, auto));
     text-align: center;
@@ -515,6 +534,19 @@ blockquote{
     line-height: 1.25em;
     text-align: justify;
     border-left: 3px solid #808080;
+}
+
+.awards ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.awards ul li{
+    list-style-type: square;
+    margin: 0 60px;
+    font-size: 13px;
 }
 
 @media (max-width: 1210px) {
